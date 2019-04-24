@@ -14,6 +14,7 @@ public class ItemDestroyer : MonoBehaviour {
 		
 	}
 
+    //画面外に出たオブジェクトを削除
     void OnBecameInvisible()
     {
         Destroy(this.gameObject);
